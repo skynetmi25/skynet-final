@@ -6,7 +6,9 @@ function App() {
     <Router>
       <div className="bg-[#0F0F0F] text-[#E0E0E0] min-h-screen font-sans">
         <header className="bg-[#1A1A1A] p-4 flex justify-between items-center shadow-md">
-          <h1 className="text-2xl font-extrabold text-[#E10600] tracking-wide">SkyNet</h1>
+        <div className="flex items-center gap-3">
+  <img src="/skynet-logo.png" alt="SkyNet Logo" className="h-10 w-auto" />
+</div>
           <nav>
             <ul className="flex space-x-4 text-sm font-medium">
               <li><Link to="/">Home</Link></li>
